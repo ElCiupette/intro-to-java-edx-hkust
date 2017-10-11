@@ -11,7 +11,7 @@ public class countDivisible
   {
     int result = 0;
     
-    for(int i = lowerBound; i < upperBound; i++)
+    for(int i = lowerBound; i <= upperBound; i++)
     {
       if((i%3 == 0) && (i%9 != 0))
       {
